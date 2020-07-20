@@ -12,7 +12,7 @@ public class Test {
         // }
         boolean cmd_display = false;
         String directory = "";
-        String original;
+        String original = "starting_data.csv";
         // First arg will be for input file
         if (args.length > 0){
             original = args[0];
@@ -44,7 +44,7 @@ public class Test {
         // Legacy code
         // csv_handle.read_file();
         
-        ArrayList<String[]> og_arr = csv_handle.csv_to_array("starting_data.csv");
+        ArrayList<String[]> og_arr = csv_handle.csv_to_array(original);
 
         if (cmd_display){
             csv_handle.display_AL(og_arr);
