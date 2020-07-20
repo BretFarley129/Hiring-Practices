@@ -6,6 +6,6 @@ public class Display {
         }
     }
     void lineBreak(){
-        System.out.println("\n----------------------------------------------\n")
+        System.out.println("\n----------------------------------------------\n");
     }
 }
