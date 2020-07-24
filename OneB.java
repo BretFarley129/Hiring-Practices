@@ -75,9 +75,9 @@ public class OneB {
     }
     String[][] calcColumns(String[][] arr){
         //This is a bit of a confusing name, as it is techinically dealing with rows pre-inversion
-        double total = Integer.parseInt(arr[15][11]);
-        double prevTotal = Integer.parseInt(arr[15][12]);
-        Integer diff = 0;
+        int total = Integer.parseInt(arr[15][11]);
+        int prevTotal = Integer.parseInt(arr[15][12]);
+        int diff = 0;
         double tracker = 0.0;
         for(int i = 1; i < 15; i ++){
             int demTot = Integer.parseInt(arr[i][11]);
